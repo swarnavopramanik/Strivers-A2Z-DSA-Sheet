@@ -1,2 +1,3 @@
 # Strivers-A2Z-DSA-Sheet
-@striver79 -  454 DSA Problem Sheet 
+
+![image](https://github.com/swarnavopramanik/Strivers-A2Z-DSA-Sheet/assets/105142693/90879ba6-4a21-42cd-a6ba-604c615d93c0)
