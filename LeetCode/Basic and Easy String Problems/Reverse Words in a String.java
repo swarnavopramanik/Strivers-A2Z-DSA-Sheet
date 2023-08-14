@@ -30,7 +30,7 @@
 } 
 
 
-/*  class Solution {
+class Solution {
     public String reverseWords(String s) {
         StringBuilder ans=new StringBuilder();
         for(int start = s.length()-1; start >=0 ; start--) {
@@ -46,4 +46,4 @@
         return ans.toString().strip();
     }
 } 
-  */
+ 
