@@ -1,24 +1,24 @@
-876. Middle of the Linked List
+237. Delete Node in a Linked List
 
-  /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public ListNode middleNode(ListNode head) {
-        ListNode slow = head, fast = head;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-        return slow;
+  class Solution {
+    public void deleteNode(ListNode node) {
+     node.val=node.next.val;
+     node.next=node.next.next;
+      
     }
 }
+ 
 
+  class Solution {
+    public void deleteNode(ListNode node) {
+ListNode temp = new ListNode();
+        while(node.next !=null)        {
+            node.val = node.next.val;
+             temp = node;
+            node= node.next;
+        }
+
+        temp.next = null;
+    }
+} 
   
